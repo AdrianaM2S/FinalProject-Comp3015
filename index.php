@@ -51,7 +51,7 @@ if (file_exists('./app/controllers/' . $controller . '.php')) {
     // Controlador no encontrado, cargar vista de error o redirigir
     // Si no hay un controlador, cargar la pagina de inicio
 
-    require_once './app/views/home.php';
+     require_once './app/views/home.php';
 }
 
 
