@@ -35,4 +35,7 @@ Screenshoots con descripción:
 - Lista de la tabla de los usuarios en el servidor. ^
 
 - ![lista_producto](images/lista_producto.png)
-- Lista de la tabla de los productos en el servidor. ^
+- Lista de la tabla de los productos en el servidor. ^!
+
+- [lista_suplidor](images/lista_suplidor.png)
+- Lista de la tabla de los suplidores en el servidor. ^!
