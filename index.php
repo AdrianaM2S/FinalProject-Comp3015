@@ -5,10 +5,14 @@ require_once './app/config/Database.php';
 require_once './app/models/UserModel.php';
 require_once './app/controllers/UserController.php';
 
+// Añadir aquí los controladores y modelos nuevos
+
 require_once './app/models/ProductModel.php';
 require_once './app/controllers/ProductController.php';
 
-// Añadir aquí los controladores y modelos nuevos
+require_once './app/models/SupplierModel.php';
+require_once './app/controllers/SupplierController.php';
+
 
 if ($_SERVER['REQUEST_METHOD'] === 'GET') {
     // Captura todos los datos POST
