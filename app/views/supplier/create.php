@@ -1,6 +1,6 @@
 <div class="border border-secondary-300 p-4 ">
     <h2 class='text-info'>Crear Suplidor</h2>
-    <form action="index.php?url=product/save/0" method="post" class='form'>
+    <form action="index.php?url=supplier/save/0" method="post" class='form'>
         <div class="form-group mb-3">
             <input type="hidden" name="id" value="0" required>
             <input type="hidden" name="accion" value="create">
