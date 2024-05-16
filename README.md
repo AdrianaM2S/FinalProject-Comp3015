@@ -23,9 +23,16 @@ Descripción de las tablas:
 * La tabla de suplidor guarda toda la data del suplidor de los productos. Las variables guardadas son la del id(int), el nombre(string/vanchar), el email(string/vanchar) y el telefono(string/vanchar).
 
 
-El diagrama ER de la base de Datos: 
- ![Diagrama_ER_base_de_datos](images/Diagrama_ER_base_de_datos.png)
+El diagrama ER de la base de Datos:
+-  ![Diagrama_ER_base_de_datos](images/Diagrama_ER_base_de_datos.png)
 
 
 Screenshoots con descripción:
-- 
+- ![phpMyAdmin](images/phpMyAdmin.png)
+- Lista de las tablas(usuarios, producto y suplidor) en el servidor. ^
+
+- ![lista_usuarios](images/lista_usuarios.png)
+- Lista de la tabla de los usuarios en el servidor. ^
+
+- ![lista_producto](images/lista_producto.png)
+- Lista de la tabla de los productos en el servidor. ^
