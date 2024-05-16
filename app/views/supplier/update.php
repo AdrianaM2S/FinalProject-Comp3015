@@ -11,16 +11,12 @@ $supplier = $data['supplier'];
             <input type="text" name="nombre" class='form-control' value="<?php echo htmlspecialchars($supplier['nombre'], ENT_QUOTES, 'UTF-8'); ?>" required>
         </div>
         <div class="form-group mb-3">
-            <label>Suplidor</label>
-            <input type="text" name="suplidor" class='form-control' value="<?php echo htmlspecialchars($supplier['suplidor'], ENT_QUOTES, 'UTF-8'); ?>" required>
+            <label>Email</label>
+            <input type="text" name="email" class='form-control' value="<?php echo htmlspecialchars($supplier['email'], ENT_QUOTES, 'UTF-8'); ?>" required>
         </div>
         <div class="form-group mb-3">
-            <label>Cantidad</label>
-            <input type="number" name="cantidad" class='form-control' placeholder="Cantidad" value="<?php echo htmlspecialchars($supplier['cantidad'], ENT_QUOTES, 'UTF-8'); ?>" required>
-        </div>
-        <div class="form-group mb-3">
-            <label>Precio</label>
-            <input type="number" name="precio" class='form-control' placeholder="Precio" value="<?php echo htmlspecialchars($supplier['precio'], ENT_QUOTES, 'UTF-8'); ?>" required>
+            <label>Telefono</label>
+            <input type="number" name="telefono" class='form-control' placeholder="Telefono" value="<?php echo htmlspecialchars($supplier['telefono'], ENT_QUOTES, 'UTF-8'); ?>" required>
         </div>
         <div class="form-group">
             <a href='index.php?url=product' class='btn btn-secondary'>Cancelar</a>

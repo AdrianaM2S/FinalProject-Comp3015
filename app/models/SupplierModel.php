@@ -8,13 +8,12 @@ class SupplierModel {
     }
 
     public function create($data) {
-        $sql = "INSERT INTO supplier (nombre, suplidor, cantidad, precio)
-                VALUES (:nombre, :suplidor, :cantidad, :precio)";
+        $sql = "INSERT INTO supplier (nombre, email, telefono)
+                VALUES (:nombre, :email, :telefono)";
         $stmt = $this->db->prepare($sql);
         $stmt->bindValue(':nombre', $data['nombre'], PDO::PARAM_STR);
-        $stmt->bindValue(':suplidor', $data['suplidor'], PDO::PARAM_STR);
-        $stmt->bindValue(':cantidad', $data['cantidad'], PDO::PARAM_STR);
-        $stmt->bindValue(':precio', $data['precio'], PDO::PARAM_STR);
+        $stmt->bindValue(':email', $data['email'], PDO::PARAM_STR);
+        $stmt->bindValue(':telefono', $data['telefono'], PDO::PARAM_STR);
         return $stmt->execute();
     }
 
@@ -27,12 +26,11 @@ class SupplierModel {
     }
 
     public function update($data) {
-        $sql = "UPDATE supplier SET nombre = :nombre, suplidor = :suplidor, cantidad = :cantidad, precio = :precio WHERE id = :id";
+        $sql = "UPDATE supplier SET nombre = :nombre, email = :email, telefono = :telefono WHERE id = :id";
         $stmt = $this->db->prepare($sql);
         $stmt->bindValue(':nombre', $data['nombre'], PDO::PARAM_STR);
-        $stmt->bindValue(':suplidor', $data['suplidor'], PDO::PARAM_STR);
-        $stmt->bindValue(':cantidad', $data['cantidad'], PDO::PARAM_STR);
-        $stmt->bindValue(':precio', $data['precio'], PDO::PARAM_STR);
+        $stmt->bindValue(':email', $data['email'], PDO::PARAM_STR);
+        $stmt->bindValue(':telefono', $data['telefono'], PDO::PARAM_STR);
         $stmt->bindValue(':id', $data['id'], PDO::PARAM_INT);
         return $stmt->execute();
     }

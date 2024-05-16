@@ -14,9 +14,8 @@ $suppliers = $data['suppliers'];
                 <thead>
                     <tr>
                         <th>Nombre</th>
-                        <th>Suplidor</th>
-                        <th>Cantidad</th>
-                        <th>Precio</th>
+                        <th>Email</th>
+                        <th>Telefono</th>
                         <th class='text-center'>
                             <a href='index.php?url=supplier/create/' class='btn btn-primary'>Crear</a>
                         </th>
@@ -27,9 +26,8 @@ $suppliers = $data['suppliers'];
                     <?php foreach ($suppliers as $suppliers): ?>
                         <tr>
                             <td><?php echo htmlspecialchars($supplier['nombre'], ENT_QUOTES, 'UTF-8'); ?></td>
-                            <td><?php echo htmlspecialchars($supplier['suplidor'], ENT_QUOTES, 'UTF-8'); ?></td>
-                            <td><?php echo htmlspecialchars($supplier['cantidad'], ENT_QUOTES, 'UTF-8'); ?></td>
-                            <td><?php echo htmlspecialchars($supplier['precio'], ENT_QUOTES, 'UTF-8'); ?></td>
+                            <td><?php echo htmlspecialchars($supplier['email'], ENT_QUOTES, 'UTF-8'); ?></td>
+                            <td><?php echo htmlspecialchars($supplier['telefono'], ENT_QUOTES, 'UTF-8'); ?></td>
                             <!-- Otros campos según sea necesario -->
                             <td class='text-center'>
                                 <a href='index.php?url=supplier/update/<?php echo htmlspecialchars($supplier['id'], ENT_QUOTES, 'UTF-8'); ?>' class='btn btn-success'>Editar</a>

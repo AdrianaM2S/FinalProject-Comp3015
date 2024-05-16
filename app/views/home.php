@@ -23,6 +23,10 @@
                     <li><a href="./index.php?url=product/index">Ver Productos</a></li>
                     <!-- Más enlaces de navegación según sea necesario -->
                 </ul>
+                <ul>
+                    <li><a href="./index.php?url=supplier/index">Ver Supplidores</a></li>
+                    <!-- Más enlaces de navegación según sea necesario -->
+                </ul>
             </nav>
         </header>
         <main>

@@ -8,16 +8,12 @@
             <input type="text" name="nombre" class='form-control' value="" required>
         </div>
         <div class="form-group mb-3">
-            <label>Suplidor</label>
-            <input type="text" name="suplidor" class='form-control' value="" required>
+            <label>Email</label>
+            <input type="text" name="email" class='form-control' value="" required>
         </div>
         <div class="form-group mb-3">
-            <label>Cantidad</label>
-            <input type="number" name="cantidad" class='form-control' value="" required>
-        </div>
-        <div class="form-group mb-3">
-            <label>Precio</label>
-            <input type="number" name="precio" class='form-control' value="" required>
+            <label>Telefono</label>
+            <input type="text" name="telefono" class='form-control' value="" required>
         </div>
         <div class="form-group">
             <a href='.' class='btn btn-secondary'>Cancelar</a>

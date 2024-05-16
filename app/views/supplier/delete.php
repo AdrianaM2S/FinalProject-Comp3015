@@ -11,16 +11,12 @@ $supplier = $data['supplier'];
             <input type="text" name="nombre" class='form-control' value="<?php echo $supplier['nombre']; ?>" readonly>
         </div>
         <div class="form-group mb-3">
-            <label>Suplidor</label>
-            <input type="text" name="suplidor" class='form-control' value="<?php echo $supplier['suplidor']; ?>" readonly>
+            <label>Email</label>
+            <input type="text" name="email" class='form-control' value="<?php echo $supplier['email']; ?>" readonly>
         </div>
         <div class="form-group mb-3">
-            <label>Cantidad</label>
-            <input type="text" name="cantidad" class='form-control' value="<?php echo $supplier['cantidad']; ?>" readonly>
-        </div>
-        <div class="form-group mb-3">
-            <label>Precio</label>
-            <input type="text" name="precio" class='form-control' value="<?php echo $supplier['precio']; ?>" readonly>
+            <label>Telefono</label>
+            <input type="text" name="telefono" class='form-control' value="<?php echo $supplier['telefono']; ?>" readonly>
         </div>
         <div class="form-group">
             <div class="row alert alert-danger">
